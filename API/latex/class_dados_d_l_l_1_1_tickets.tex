@@ -1,0 +1,97 @@
+\doxysection{Dados\+DLL.\+Tickets Class Reference}
+\label{class_dados_d_l_l_1_1_tickets}\index{DadosDLL.Tickets@{DadosDLL.Tickets}}
+
+
+Purpose\+: Esta classe gere o conjunto dos \doxyref{Tickets}{p.}{class_dados_d_l_l_1_1_tickets} e as suas funções Created by\+: Lopesi Created on\+: 5/27/2021 4\+:59\+:29 PM  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \textbf{ Add\+Ticket} (\textbf{ Ticket} t, out int x)
+\begin{DoxyCompactList}\small\item\em Neste metodo, adicionamos um ticket á lista, verificando primeiro se ele já existe. \end{DoxyCompactList}\item 
+static bool \textbf{ Lista\+Tickets} (out int ticket\+Total, out int solved\+Total)
+\begin{DoxyCompactList}\small\item\em Este metodo requisita a informação necessária para imprimir no ecrâ \end{DoxyCompactList}\item 
+static bool \textbf{ Save\+All} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Metodo que gere o procedimento de armazenamento dos dados em ficheiro \end{DoxyCompactList}\item 
+static bool \textbf{ Load\+All} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em Metodo que gere o procedimento de carregamento dos dados em ficheiro \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Purpose\+: Esta classe gere o conjunto dos \doxyref{Tickets}{p.}{class_dados_d_l_l_1_1_tickets} e as suas funções Created by\+: Lopesi Created on\+: 5/27/2021 4\+:59\+:29 PM 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{class_dados_d_l_l_1_1_tickets_a9641c03fb52c81e6bdeb92f34eca7514}} 
+\index{DadosDLL.Tickets@{DadosDLL.Tickets}!AddTicket@{AddTicket}}
+\index{AddTicket@{AddTicket}!DadosDLL.Tickets@{DadosDLL.Tickets}}
+\doxysubsubsection{AddTicket()}
+{\footnotesize\ttfamily static bool Dados\+DLL.\+Tickets.\+Add\+Ticket (\begin{DoxyParamCaption}\item[{\textbf{ Ticket}}]{t,  }\item[{out int}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Neste metodo, adicionamos um ticket á lista, verificando primeiro se ele já existe. 
+
+\mbox{\label{class_dados_d_l_l_1_1_tickets_aada76bd3a617c19282cce8ec400c2d3b}} 
+\index{DadosDLL.Tickets@{DadosDLL.Tickets}!ListaTickets@{ListaTickets}}
+\index{ListaTickets@{ListaTickets}!DadosDLL.Tickets@{DadosDLL.Tickets}}
+\doxysubsubsection{ListaTickets()}
+{\footnotesize\ttfamily static bool Dados\+DLL.\+Tickets.\+Lista\+Tickets (\begin{DoxyParamCaption}\item[{out int}]{ticket\+Total,  }\item[{out int}]{solved\+Total }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Este metodo requisita a informação necessária para imprimir no ecrâ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ticket\+Num} & Número de tickets guardados\\
+\hline
+{\em solved\+Total} & total de resolvidos\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true se tiver dados, false se não tiver
+\end{DoxyReturn}
+\mbox{\label{class_dados_d_l_l_1_1_tickets_ad9d7d34133f57ba0ff0e675b55dca5b7}} 
+\index{DadosDLL.Tickets@{DadosDLL.Tickets}!LoadAll@{LoadAll}}
+\index{LoadAll@{LoadAll}!DadosDLL.Tickets@{DadosDLL.Tickets}}
+\doxysubsubsection{LoadAll()}
+{\footnotesize\ttfamily static bool Dados\+DLL.\+Tickets.\+Load\+All (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Metodo que gere o procedimento de carregamento dos dados em ficheiro 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Caminho e nome do ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true se o procedimento de carregar foi ok. False em caso contrario
+\end{DoxyReturn}
+\mbox{\label{class_dados_d_l_l_1_1_tickets_a35878ce35421042c425e0dd8af3958fc}} 
+\index{DadosDLL.Tickets@{DadosDLL.Tickets}!SaveAll@{SaveAll}}
+\index{SaveAll@{SaveAll}!DadosDLL.Tickets@{DadosDLL.Tickets}}
+\doxysubsubsection{SaveAll()}
+{\footnotesize\ttfamily static bool Dados\+DLL.\+Tickets.\+Save\+All (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Metodo que gere o procedimento de armazenamento dos dados em ficheiro 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & Caminho e nome do ficheiro\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true se o procedimento de salvar foi ok. False em caso contrario
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+IPCA/1\+A 2\+S -\/ Linguagens da Programação 2/\+PROJECTOS/\+Fama\+Ambiente/\+Fama\+Ambiente v1.\+3/\+Fama\+Ambiente/\+Dados\+DLL/\textbf{ Tickets.\+cs}\end{DoxyCompactItemize}

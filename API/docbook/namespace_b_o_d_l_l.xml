@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_b_o_d_l_l" xml:lang="en-US">
+<title>BODLL Namespace Reference</title>
+<indexterm><primary>BODLL</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_b_o_d_l_l_1_1_client">Client</link></para>
+
+<para>Purpose: Esta classe define o cliente, seus atributos e metodos. Created by: Lopesi Created on: 5/26/2021 11:51:09 PM </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_b_o_d_l_l_1_1_contact">Contact</link></para>
+
+<para>Purpose: Caracteriza e estrutura as informações de contacto (contact) Created by: Lopesi Created on: 5/26/2021 11:51:26 PM </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_b_o_d_l_l_1_1_infrastructure">Infrastructure</link></para>
+
+<para>Purpose: Define a infraestrutura, seus atributos e metodos. Created by: Lopesi Created on: 5/26/2021 11:52:04 PM </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_b_o_d_l_l_1_1_issue">Issue</link></para>
+
+<para>Purpose: Define a ocorrência, seus atributos e metodos. Created by: Lopesi Created on: 5/26/2021 11:52:28 PM </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_b_o_d_l_l_1_1_person">Person</link></para>
+
+<para>Purpose: A class <link linkend="_class_b_o_d_l_l_1_1_person">Person</link> é uma classe &quot;Pai&quot;, define a pessoa e seus atributos e metodos poderão ser usados por outras classes Created by: Lopesi Created on: 5/26/2021 11:52:46 PM </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_b_o_d_l_l_1_1_technician">Technician</link></para>
+
+<para>Purpose: Esta classe define o técnico, seus atributos e metodos. Created by: Lopesi Created on: 5/26/2021 11:52:58 PM </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_b_o_d_l_l_1_1_ticket">Ticket</link></para>
+
+<para>Purpose: Define o ticket, seus atributos e metodos. Created by: Lopesi Created on: 5/26/2021 11:53:14 PM </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

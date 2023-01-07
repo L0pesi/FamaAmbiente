@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_b_o_d_l_l_1_1_person" xml:lang="en-US">
+<title>BODLL.Person Class Reference</title>
+<indexterm><primary>BODLL.Person</primary></indexterm>
+<para>
+
+<para>Purpose: A class <link linkend="_class_b_o_d_l_l_1_1_person">Person</link> é uma classe &quot;Pai&quot;, define a pessoa e seus atributos e metodos poderão ser usados por outras classes Created by: Lopesi Created on: 5/26/2021 11:52:46 PM </para>
+ 
+</para>
+<para>Inheritance diagram for BODLL.Person:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_b_o_d_l_l_1_1_person.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_b_o_d_l_l_1_1_person_1a9ad3a7ac8ae81a67234a730de524e8c5">Person</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_b_o_d_l_l_1_1_person_1a62cb935fc230473c77fd76e555121e99">Person</link> (string fName, string lName, string nif, string lang, <link linkend="_class_b_o_d_l_l_1_1_contact">Contact</link> c)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_b_o_d_l_l_1_1_person_1aad154ad7d27a9d2922c7b73141385f1e">Language</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_b_o_d_l_l_1_1_person_1a01ff20b17f115144e7ce17638998e70d">FirstName</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_b_o_d_l_l_1_1_person_1ab78dc60941e37dcad2cc78351dd5d35a">LastName</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string?? <link linkend="_class_b_o_d_l_l_1_1_person_1a6486061a3f4d825b88b0a0d21d7a44cb">Nif</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_class_b_o_d_l_l_1_1_contact">Contact</link> <link linkend="_class_b_o_d_l_l_1_1_person_1ae56e27433083f7020288c3dfc79b6b9e">ContactData</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Purpose: A class <link linkend="_class_b_o_d_l_l_1_1_person">Person</link> é uma classe &quot;Pai&quot;, define a pessoa e seus atributos e metodos poderão ser usados por outras classes Created by: Lopesi Created on: 5/26/2021 11:52:46 PM </para>
+
+
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_b_o_d_l_l_1_1_person_1a9ad3a7ac8ae81a67234a730de524e8c5"/>    <section>
+    <title>Person()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Person</primary><secondary>BODLL.Person</secondary></indexterm>
+<indexterm><primary>BODLL.Person</primary><secondary>Person</secondary></indexterm>
+<para><computeroutput>BODLL.Person.Person ( )</computeroutput></para>    </section><anchor xml:id="_class_b_o_d_l_l_1_1_person_1a62cb935fc230473c77fd76e555121e99"/>    <section>
+    <title>Person()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Person</primary><secondary>BODLL.Person</secondary></indexterm>
+<indexterm><primary>BODLL.Person</primary><secondary>Person</secondary></indexterm>
+<para><computeroutput>BODLL.Person.Person (string fName, string lName, string nif, string lang, <link linkend="_class_b_o_d_l_l_1_1_contact">Contact</link> c)</computeroutput></para></section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_b_o_d_l_l_1_1_person_1ae56e27433083f7020288c3dfc79b6b9e"/>    <section>
+    <title>ContactData</title>
+<indexterm><primary>ContactData</primary><secondary>BODLL.Person</secondary></indexterm>
+<indexterm><primary>BODLL.Person</primary><secondary>ContactData</secondary></indexterm>
+<para><computeroutput><link linkend="_class_b_o_d_l_l_1_1_contact">Contact</link> BODLL.Person.ContactData<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para>    </section><anchor xml:id="_class_b_o_d_l_l_1_1_person_1a01ff20b17f115144e7ce17638998e70d"/>    <section>
+    <title>FirstName</title>
+<indexterm><primary>FirstName</primary><secondary>BODLL.Person</secondary></indexterm>
+<indexterm><primary>BODLL.Person</primary><secondary>FirstName</secondary></indexterm>
+<para><computeroutput>string BODLL.Person.FirstName<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para>    </section><anchor xml:id="_class_b_o_d_l_l_1_1_person_1aad154ad7d27a9d2922c7b73141385f1e"/>    <section>
+    <title>Language</title>
+<indexterm><primary>Language</primary><secondary>BODLL.Person</secondary></indexterm>
+<indexterm><primary>BODLL.Person</primary><secondary>Language</secondary></indexterm>
+<para><computeroutput>string BODLL.Person.Language<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para>    </section><anchor xml:id="_class_b_o_d_l_l_1_1_person_1ab78dc60941e37dcad2cc78351dd5d35a"/>    <section>
+    <title>LastName</title>
+<indexterm><primary>LastName</primary><secondary>BODLL.Person</secondary></indexterm>
+<indexterm><primary>BODLL.Person</primary><secondary>LastName</secondary></indexterm>
+<para><computeroutput>string BODLL.Person.LastName<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para>    </section><anchor xml:id="_class_b_o_d_l_l_1_1_person_1a6486061a3f4d825b88b0a0d21d7a44cb"/>    <section>
+    <title>Nif</title>
+<indexterm><primary>Nif</primary><secondary>BODLL.Person</secondary></indexterm>
+<indexterm><primary>BODLL.Person</primary><secondary>Nif</secondary></indexterm>
+<para><computeroutput>string?? BODLL.Person.Nif<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/<link linkend="__person_8cs">Person.cs</link></section>
+</section>

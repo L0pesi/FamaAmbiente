@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__menu_operation_8cs" xml:lang="en-US">
+<title>D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/FamaAmbiente/MenuOperation.cs File Reference</title>
+<indexterm><primary>D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/FamaAmbiente/MenuOperation.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_fama_ambiente_1_1_menu_operation">FamaAmbiente.MenuOperation</link></para>
+
+<para>Purpose: Esta class de operação do menu é para testar a alternativa do frontend Created by: Lopesi Created on: 5/27/2021 1:11:23 PM </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_fama_ambiente">FamaAmbiente</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

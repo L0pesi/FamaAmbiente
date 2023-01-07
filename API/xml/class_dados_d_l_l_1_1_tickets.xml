@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_dados_d_l_l_1_1_tickets" kind="class" language="C#" prot="public">
+    <compoundname>DadosDLL::Tickets</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_dados_d_l_l_1_1_tickets_1a0dc711fa41f0cb1b50084742473269e0" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_b_o_d_l_l_1_1_ticket" kindref="compound">Ticket</ref> &gt;</type>
+        <definition>List&lt;Ticket&gt; DadosDLL.Tickets.allTickets</definition>
+        <argsstring></argsstring>
+        <name>allTickets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" line="37" column="29" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_dados_d_l_l_1_1_tickets_1a207b3644a07a2707e7f66cc49ad8a8cb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static DadosDLL.Tickets.Tickets</definition>
+        <argsstring>()</argsstring>
+        <name>Tickets</name>
+        <briefdescription>
+<para>o default constructor da classe <ref refid="class_dados_d_l_l_1_1_tickets" kindref="compound">Tickets</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" line="51" column="16" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dados_d_l_l_1_1_tickets_1a9641c03fb52c81e6bdeb92f34eca7514" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DadosDLL.Tickets.AddTicket</definition>
+        <argsstring>(Ticket t, out int x)</argsstring>
+        <name>AddTicket</name>
+        <param>
+          <type><ref refid="class_b_o_d_l_l_1_1_ticket" kindref="compound">Ticket</ref></type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Neste metodo, adicionamos um ticket á lista, verificando primeiro se ele já existe. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" line="71" column="28" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" bodystart="71" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_d_l_l_1_1_tickets_1aada76bd3a617c19282cce8ec400c2d3b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DadosDLL.Tickets.ListaTickets</definition>
+        <argsstring>(out int ticketTotal, out int solvedTotal)</argsstring>
+        <name>ListaTickets</name>
+        <param>
+          <type>out int</type>
+          <declname>ticketTotal</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>solvedTotal</declname>
+        </param>
+        <briefdescription>
+<para>Este metodo requisita a informação necessária para imprimir no ecrâ </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ticketNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número de tickets guardados</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>solvedTotal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>total de resolvidos</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true se tiver dados, false se não tiver</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" line="103" column="28" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" bodystart="103" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_d_l_l_1_1_tickets_1a35878ce35421042c425e0dd8af3958fc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DadosDLL.Tickets.SaveAll</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>SaveAll</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Metodo que gere o procedimento de armazenamento dos dados em ficheiro </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caminho e nome do ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true se o procedimento de salvar foi ok. False em caso contrario</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" line="130" column="28" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" bodystart="130" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_d_l_l_1_1_tickets_1ad9d7d34133f57ba0ff0e675b55dca5b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DadosDLL.Tickets.LoadAll</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>LoadAll</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Metodo que gere o procedimento de carregamento dos dados em ficheiro </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Caminho e nome do ficheiro</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true se o procedimento de carregar foi ok. False em caso contrario</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" line="158" column="28" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" bodystart="158" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Esta classe gere o conjunto dos <ref refid="class_dados_d_l_l_1_1_tickets" kindref="compound">Tickets</ref> e as suas funções Created by: Lopesi Created on: 5/27/2021 4:59:29 PM </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" line="31" column="11" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Tickets.cs" bodystart="32" bodyend="185"/>
+    <listofallmembers>
+      <member refid="class_dados_d_l_l_1_1_tickets_1a9641c03fb52c81e6bdeb92f34eca7514" prot="public" virt="non-virtual"><scope>DadosDLL::Tickets</scope><name>AddTicket</name></member>
+      <member refid="class_dados_d_l_l_1_1_tickets_1a0dc711fa41f0cb1b50084742473269e0" prot="private" virt="non-virtual"><scope>DadosDLL::Tickets</scope><name>allTickets</name></member>
+      <member refid="class_dados_d_l_l_1_1_tickets_1aada76bd3a617c19282cce8ec400c2d3b" prot="public" virt="non-virtual"><scope>DadosDLL::Tickets</scope><name>ListaTickets</name></member>
+      <member refid="class_dados_d_l_l_1_1_tickets_1ad9d7d34133f57ba0ff0e675b55dca5b7" prot="public" virt="non-virtual"><scope>DadosDLL::Tickets</scope><name>LoadAll</name></member>
+      <member refid="class_dados_d_l_l_1_1_tickets_1a35878ce35421042c425e0dd8af3958fc" prot="public" virt="non-virtual"><scope>DadosDLL::Tickets</scope><name>SaveAll</name></member>
+      <member refid="class_dados_d_l_l_1_1_tickets_1a207b3644a07a2707e7f66cc49ad8a8cb" prot="private" virt="non-virtual"><scope>DadosDLL::Tickets</scope><name>Tickets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

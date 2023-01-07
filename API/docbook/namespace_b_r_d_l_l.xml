@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_b_r_d_l_l" xml:lang="en-US">
+<title>BRDLL Namespace Reference</title>
+<indexterm><primary>BRDLL</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_b_r_d_l_l_1_1_ticket_rules">TicketRules</link></para>
+
+<para>Purpose: Esta classe gere os tickets, todas as suas regras e validações Created by: Lopesi Created on: 5/27/2021 3:02:35 PM </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

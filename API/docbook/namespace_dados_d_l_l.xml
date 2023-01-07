@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_dados_d_l_l" xml:lang="en-US">
+<title>DadosDLL Namespace Reference</title>
+<indexterm><primary>DadosDLL</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_dados_d_l_l_1_1_clients">Clients</link></para>
+
+<para>Purpose: Esta classe gere o conjunto dos clientes e as suas funções Created by: Lopesi Created on: 5/26/2021 11:46:29 PM </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_dados_d_l_l_1_1_infrastructures">Infrastructures</link></para>
+
+<para>Purpose: Esta classe gere o conjunto das infraestruturas e as suas funções Created by: Lopesi Created on: 5/26/2021 11:48:48 PM </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_dados_d_l_l_1_1_issues">Issues</link></para>
+
+<para>Purpose: Esta classe gere o conjunto das ocorrências e as suas funções Created by: Lopesi Created on: 5/26/2021 11:48:06 PM </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_dados_d_l_l_1_1_technicians">Technicians</link></para>
+
+<para>Purpose: Esta classe gere o conjunto dos Técnicos e as suas funções Created by: Lopesi Created on: 5/26/2021 11:47:52 PM </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_dados_d_l_l_1_1_tickets">Tickets</link></para>
+
+<para>Purpose: Esta classe gere o conjunto dos <link linkend="_class_dados_d_l_l_1_1_tickets">Tickets</link> e as suas funções Created by: Lopesi Created on: 5/27/2021 4:59:29 PM </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

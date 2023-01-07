@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_9e363150704b5a44f64910ae2d4c9e64" xml:lang="en-US">
+<title>D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente Directory Reference</title>
+<indexterm><primary>D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_e21518ef8be41bee3bd4c99945f0f2ac">BODLL</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_4bb831adea8ec42b847823092b1e4007">BRDLL</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_d660d2934011ea375cd3aba308083b6f">DadosDLL</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_ba0cef2c86e006a3fa9bc677138cd717">FamaAmbiente</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

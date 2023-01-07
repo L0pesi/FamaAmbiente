@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespace_dados_d_l_l" kind="namespace" language="C#">
+    <compoundname>DadosDLL</compoundname>
+    <innerclass refid="class_dados_d_l_l_1_1_clients" prot="public">DadosDLL::Clients</innerclass>
+    <innerclass refid="class_dados_d_l_l_1_1_infrastructures" prot="public">DadosDLL::Infrastructures</innerclass>
+    <innerclass refid="class_dados_d_l_l_1_1_issues" prot="public">DadosDLL::Issues</innerclass>
+    <innerclass refid="class_dados_d_l_l_1_1_technicians" prot="public">DadosDLL::Technicians</innerclass>
+    <innerclass refid="class_dados_d_l_l_1_1_tickets" prot="public">DadosDLL::Tickets</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Clients.cs" line="20" column="1"/>
+  </compounddef>
+</doxygen>

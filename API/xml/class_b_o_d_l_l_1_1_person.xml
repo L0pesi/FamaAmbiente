@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_b_o_d_l_l_1_1_person" kind="class" language="C#" prot="public">
+    <compoundname>BODLL::Person</compoundname>
+    <derivedcompoundref refid="class_b_o_d_l_l_1_1_client" prot="public" virt="non-virtual">BODLL.Client</derivedcompoundref>
+    <derivedcompoundref refid="class_b_o_d_l_l_1_1_technician" prot="public" virt="non-virtual">BODLL.Technician</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_b_o_d_l_l_1_1_person_1a26507e5ad8c5f131277b76e942a01225" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BODLL.Person.language</definition>
+        <argsstring></argsstring>
+        <name>language</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" line="35" column="24" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_d_l_l_1_1_person_1aca087e183256c3ef62b1da1e456f54ca" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BODLL.Person.firstName</definition>
+        <argsstring></argsstring>
+        <name>firstName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" line="36" column="24" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_d_l_l_1_1_person_1ad4d98e6035d5ee6a41862d4f675cbe5e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BODLL.Person.lastName</definition>
+        <argsstring></argsstring>
+        <name>lastName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" line="37" column="24" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_d_l_l_1_1_person_1a4d654c661868fb099ed5cdc93b92127c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BODLL.Person.nif</definition>
+        <argsstring></argsstring>
+        <name>nif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" line="38" column="24" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_d_l_l_1_1_person_1a75ae05d80a2090b8f4ae2cea0dabe604" prot="private" static="no" mutable="no">
+        <type><ref refid="class_b_o_d_l_l_1_1_contact" kindref="compound">Contact</ref></type>
+        <definition>Contact BODLL.Person.contactData</definition>
+        <argsstring></argsstring>
+        <name>contactData</name>
+        <initializer>= new <ref refid="class_b_o_d_l_l_1_1_contact" kindref="compound">Contact</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" line="39" column="25" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_b_o_d_l_l_1_1_person_1aad154ad7d27a9d2922c7b73141385f1e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BODLL.Person.Language</definition>
+        <argsstring></argsstring>
+        <name>Language</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" line="68" column="23" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" bodystart="69" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_d_l_l_1_1_person_1a01ff20b17f115144e7ce17638998e70d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BODLL.Person.FirstName</definition>
+        <argsstring></argsstring>
+        <name>FirstName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" line="80" column="23" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" bodystart="81" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_d_l_l_1_1_person_1ab78dc60941e37dcad2cc78351dd5d35a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BODLL.Person.LastName</definition>
+        <argsstring></argsstring>
+        <name>LastName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" line="92" column="23" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" bodystart="93" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_d_l_l_1_1_person_1a6486061a3f4d825b88b0a0d21d7a44cb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string??</type>
+        <definition>string?? BODLL.Person.Nif</definition>
+        <argsstring></argsstring>
+        <name>Nif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" line="105" column="23" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" bodystart="106" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_d_l_l_1_1_person_1ae56e27433083f7020288c3dfc79b6b9e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_b_o_d_l_l_1_1_contact" kindref="compound">Contact</ref></type>
+        <definition>Contact BODLL.Person.ContactData</definition>
+        <argsstring></argsstring>
+        <name>ContactData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" line="129" column="24" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" bodystart="130" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_b_o_d_l_l_1_1_person_1a9ad3a7ac8ae81a67234a730de524e8c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BODLL.Person.Person</definition>
+        <argsstring>()</argsstring>
+        <name>Person</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" line="49" column="16" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_o_d_l_l_1_1_person_1a62cb935fc230473c77fd76e555121e99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BODLL.Person.Person</definition>
+        <argsstring>(string fName, string lName, string nif, string lang, Contact c)</argsstring>
+        <name>Person</name>
+        <param>
+          <type>string</type>
+          <declname>fName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nif</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lang</declname>
+        </param>
+        <param>
+          <type><ref refid="class_b_o_d_l_l_1_1_contact" kindref="compound">Contact</ref></type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" line="54" column="16" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" bodystart="54" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: A class <ref refid="class_b_o_d_l_l_1_1_person" kindref="compound">Person</ref> é uma classe &quot;Pai&quot;, define a pessoa e seus atributos e metodos poderão ser usados por outras classes Created by: Lopesi Created on: 5/26/2021 11:52:46 PM </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BODLL.Person</label>
+        <link refid="class_b_o_d_l_l_1_1_person"/>
+      </node>
+      <node id="2">
+        <label>BODLL.Client</label>
+        <link refid="class_b_o_d_l_l_1_1_client"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>BODLL.Technician</label>
+        <link refid="class_b_o_d_l_l_1_1_technician"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" line="29" column="11" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs" bodystart="30" bodyend="147"/>
+    <listofallmembers>
+      <member refid="class_b_o_d_l_l_1_1_person_1a75ae05d80a2090b8f4ae2cea0dabe604" prot="private" virt="non-virtual"><scope>BODLL::Person</scope><name>contactData</name></member>
+      <member refid="class_b_o_d_l_l_1_1_person_1ae56e27433083f7020288c3dfc79b6b9e" prot="public" virt="non-virtual"><scope>BODLL::Person</scope><name>ContactData</name></member>
+      <member refid="class_b_o_d_l_l_1_1_person_1aca087e183256c3ef62b1da1e456f54ca" prot="private" virt="non-virtual"><scope>BODLL::Person</scope><name>firstName</name></member>
+      <member refid="class_b_o_d_l_l_1_1_person_1a01ff20b17f115144e7ce17638998e70d" prot="public" virt="non-virtual"><scope>BODLL::Person</scope><name>FirstName</name></member>
+      <member refid="class_b_o_d_l_l_1_1_person_1a26507e5ad8c5f131277b76e942a01225" prot="private" virt="non-virtual"><scope>BODLL::Person</scope><name>language</name></member>
+      <member refid="class_b_o_d_l_l_1_1_person_1aad154ad7d27a9d2922c7b73141385f1e" prot="public" virt="non-virtual"><scope>BODLL::Person</scope><name>Language</name></member>
+      <member refid="class_b_o_d_l_l_1_1_person_1ad4d98e6035d5ee6a41862d4f675cbe5e" prot="private" virt="non-virtual"><scope>BODLL::Person</scope><name>lastName</name></member>
+      <member refid="class_b_o_d_l_l_1_1_person_1ab78dc60941e37dcad2cc78351dd5d35a" prot="public" virt="non-virtual"><scope>BODLL::Person</scope><name>LastName</name></member>
+      <member refid="class_b_o_d_l_l_1_1_person_1a4d654c661868fb099ed5cdc93b92127c" prot="private" virt="non-virtual"><scope>BODLL::Person</scope><name>nif</name></member>
+      <member refid="class_b_o_d_l_l_1_1_person_1a6486061a3f4d825b88b0a0d21d7a44cb" prot="public" virt="non-virtual"><scope>BODLL::Person</scope><name>Nif</name></member>
+      <member refid="class_b_o_d_l_l_1_1_person_1a9ad3a7ac8ae81a67234a730de524e8c5" prot="public" virt="non-virtual"><scope>BODLL::Person</scope><name>Person</name></member>
+      <member refid="class_b_o_d_l_l_1_1_person_1a62cb935fc230473c77fd76e555121e99" prot="public" virt="non-virtual"><scope>BODLL::Person</scope><name>Person</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

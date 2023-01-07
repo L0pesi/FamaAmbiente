@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_dados_d_l_l_1_1_tickets" xml:lang="en-US">
+<title>DadosDLL.Tickets Class Reference</title>
+<indexterm><primary>DadosDLL.Tickets</primary></indexterm>
+<para>
+
+<para>Purpose: Esta classe gere o conjunto dos <link linkend="_class_dados_d_l_l_1_1_tickets">Tickets</link> e as suas funções Created by: Lopesi Created on: 5/27/2021 4:59:29 PM </para>
+ 
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static bool <link linkend="_class_dados_d_l_l_1_1_tickets_1a9641c03fb52c81e6bdeb92f34eca7514">AddTicket</link> (<link linkend="_class_b_o_d_l_l_1_1_ticket">Ticket</link> t, out int x)</para>
+
+<para>Neste metodo, adicionamos um ticket á lista, verificando primeiro se ele já existe. </para>
+</listitem>
+            <listitem><para>static bool <link linkend="_class_dados_d_l_l_1_1_tickets_1aada76bd3a617c19282cce8ec400c2d3b">ListaTickets</link> (out int ticketTotal, out int solvedTotal)</para>
+
+<para>Este metodo requisita a informação necessária para imprimir no ecrâ </para>
+</listitem>
+            <listitem><para>static bool <link linkend="_class_dados_d_l_l_1_1_tickets_1a35878ce35421042c425e0dd8af3958fc">SaveAll</link> (string fileName)</para>
+
+<para>Metodo que gere o procedimento de armazenamento dos dados em ficheiro </para>
+</listitem>
+            <listitem><para>static bool <link linkend="_class_dados_d_l_l_1_1_tickets_1ad9d7d34133f57ba0ff0e675b55dca5b7">LoadAll</link> (string fileName)</para>
+
+<para>Metodo que gere o procedimento de carregamento dos dados em ficheiro </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Purpose: Esta classe gere o conjunto dos <link linkend="_class_dados_d_l_l_1_1_tickets">Tickets</link> e as suas funções Created by: Lopesi Created on: 5/27/2021 4:59:29 PM </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_dados_d_l_l_1_1_tickets_1a9641c03fb52c81e6bdeb92f34eca7514"/>    <section>
+    <title>AddTicket()</title>
+<indexterm><primary>AddTicket</primary><secondary>DadosDLL.Tickets</secondary></indexterm>
+<indexterm><primary>DadosDLL.Tickets</primary><secondary>AddTicket</secondary></indexterm>
+<para><computeroutput>static bool DadosDLL.Tickets.AddTicket (<link linkend="_class_b_o_d_l_l_1_1_ticket">Ticket</link> t, out int x)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Neste metodo, adicionamos um ticket á lista, verificando primeiro se ele já existe. </para>
+</para>
+    </section><anchor xml:id="_class_dados_d_l_l_1_1_tickets_1aada76bd3a617c19282cce8ec400c2d3b"/>    <section>
+    <title>ListaTickets()</title>
+<indexterm><primary>ListaTickets</primary><secondary>DadosDLL.Tickets</secondary></indexterm>
+<indexterm><primary>DadosDLL.Tickets</primary><secondary>ListaTickets</secondary></indexterm>
+<para><computeroutput>static bool DadosDLL.Tickets.ListaTickets (out int ticketTotal, out int solvedTotal)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Este metodo requisita a informação necessária para imprimir no ecrâ </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>ticketNum</entry>
+                                <entry>
+<para>Número de tickets guardados</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>solvedTotal</entry>
+                                <entry>
+<para>total de resolvidos</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true se tiver dados, false se não tiver</para>
+</formalpara>
+</para>
+    </section><anchor xml:id="_class_dados_d_l_l_1_1_tickets_1ad9d7d34133f57ba0ff0e675b55dca5b7"/>    <section>
+    <title>LoadAll()</title>
+<indexterm><primary>LoadAll</primary><secondary>DadosDLL.Tickets</secondary></indexterm>
+<indexterm><primary>DadosDLL.Tickets</primary><secondary>LoadAll</secondary></indexterm>
+<para><computeroutput>static bool DadosDLL.Tickets.LoadAll (string fileName)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Metodo que gere o procedimento de carregamento dos dados em ficheiro </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>fileName</entry>
+                                <entry>
+<para>Caminho e nome do ficheiro</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true se o procedimento de carregar foi ok. False em caso contrario</para>
+</formalpara>
+</para>
+    </section><anchor xml:id="_class_dados_d_l_l_1_1_tickets_1a35878ce35421042c425e0dd8af3958fc"/>    <section>
+    <title>SaveAll()</title>
+<indexterm><primary>SaveAll</primary><secondary>DadosDLL.Tickets</secondary></indexterm>
+<indexterm><primary>DadosDLL.Tickets</primary><secondary>SaveAll</secondary></indexterm>
+<para><computeroutput>static bool DadosDLL.Tickets.SaveAll (string fileName)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Metodo que gere o procedimento de armazenamento dos dados em ficheiro </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>fileName</entry>
+                                <entry>
+<para>Caminho e nome do ficheiro</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true se o procedimento de salvar foi ok. False em caso contrario</para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/<link linkend="__tickets_8cs">Tickets.cs</link></section>
+</section>

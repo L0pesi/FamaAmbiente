@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DadosDLL.Clients">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAQBBAAAAAAAAAAAAAAAAAAACAAAAAAM=</HashCode>
+      <FileName>Clients.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DadosDLL.Infrastructures">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAABAAAAAAAAAAAAAAAQAAAAAAAAAAAQ=</HashCode>
+      <FileName>Infrastructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DadosDLL.Issues">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Issues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DadosDLL.Technicians">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Technicians.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DadosDLL.Tickets">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABAAAAAAAAABAAAAAAAAAAAAAAAAAAAIAAAAAAE=</HashCode>
+      <FileName>Tickets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

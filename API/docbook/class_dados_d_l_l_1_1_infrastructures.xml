@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_dados_d_l_l_1_1_infrastructures" xml:lang="en-US">
+<title>DadosDLL.Infrastructures Class Reference</title>
+<indexterm><primary>DadosDLL.Infrastructures</primary></indexterm>
+<para>
+
+<para>Purpose: Esta classe gere o conjunto das infraestruturas e as suas funções Created by: Lopesi Created on: 5/26/2021 11:48:48 PM </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_dados_d_l_l_1_1_infrastructures_1ad50bd2597d5eb9e3990bdccf139d730b">Infrastructures</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static bool <link linkend="_class_dados_d_l_l_1_1_infrastructures_1a283762b8baa409cec5073f1ce4fc06b1">LoadOnBoot</link> ()</para>
+
+<para>Função para carregar exemplos pré-definidos </para>
+</listitem>
+            <listitem><para>static bool <link linkend="_class_dados_d_l_l_1_1_infrastructures_1a8b4fa4f5b041ee80e4d822f74142d227">ShowInfrastructures</link> (out int id)</para>
+
+<para>Função para imprimir no ecrã todas as infraestruturas </para>
+</listitem>
+            <listitem><para>static bool <link linkend="_class_dados_d_l_l_1_1_infrastructures_1a747e0e406dba8b6622719e2917d88f24">Get</link> (int id, out <link linkend="_class_b_o_d_l_l_1_1_infrastructure">Infrastructure</link> i)</para>
+
+<para>Função que recolhe uma determinada infraestrutura através do id </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Purpose: Esta classe gere o conjunto das infraestruturas e as suas funções Created by: Lopesi Created on: 5/26/2021 11:48:48 PM </para>
+
+
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_dados_d_l_l_1_1_infrastructures_1ad50bd2597d5eb9e3990bdccf139d730b"/>    <section>
+    <title>Infrastructures()</title>
+<indexterm><primary>Infrastructures</primary><secondary>DadosDLL.Infrastructures</secondary></indexterm>
+<indexterm><primary>DadosDLL.Infrastructures</primary><secondary>Infrastructures</secondary></indexterm>
+<para><computeroutput>DadosDLL.Infrastructures.Infrastructures ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_dados_d_l_l_1_1_infrastructures_1a747e0e406dba8b6622719e2917d88f24"/>    <section>
+    <title>Get()</title>
+<indexterm><primary>Get</primary><secondary>DadosDLL.Infrastructures</secondary></indexterm>
+<indexterm><primary>DadosDLL.Infrastructures</primary><secondary>Get</secondary></indexterm>
+<para><computeroutput>static bool DadosDLL.Infrastructures.Get (int id, out <link linkend="_class_b_o_d_l_l_1_1_infrastructure">Infrastructure</link> i)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Função que recolhe uma determinada infraestrutura através do id </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>id</entry>
+                                <entry>
+<para>o id que a função recebe</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>i</entry>
+                                <entry>
+<para>o objeto infraestrutura que é devolvido</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true se encontrar, false senão. Leva a infraestrutura em out</para>
+</formalpara>
+</para>
+    </section><anchor xml:id="_class_dados_d_l_l_1_1_infrastructures_1a283762b8baa409cec5073f1ce4fc06b1"/>    <section>
+    <title>LoadOnBoot()</title>
+<indexterm><primary>LoadOnBoot</primary><secondary>DadosDLL.Infrastructures</secondary></indexterm>
+<indexterm><primary>DadosDLL.Infrastructures</primary><secondary>LoadOnBoot</secondary></indexterm>
+<para><computeroutput>static bool DadosDLL.Infrastructures.LoadOnBoot ( )<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Função para carregar exemplos pré-definidos </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>true se for bem sucedido.False se estiver vazia</para>
+</formalpara>
+</para>
+    </section><anchor xml:id="_class_dados_d_l_l_1_1_infrastructures_1a8b4fa4f5b041ee80e4d822f74142d227"/>    <section>
+    <title>ShowInfrastructures()</title>
+<indexterm><primary>ShowInfrastructures</primary><secondary>DadosDLL.Infrastructures</secondary></indexterm>
+<indexterm><primary>DadosDLL.Infrastructures</primary><secondary>ShowInfrastructures</secondary></indexterm>
+<para><computeroutput>static bool DadosDLL.Infrastructures.ShowInfrastructures (out int id)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+
+<para>Função para imprimir no ecrã todas as infraestruturas </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>id</entry>
+                                <entry>
+<para>o parametro id em infraestruturas</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true se for bem sucedido. false se a lista estiver vazia</para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/<link linkend="__infrastructures_8cs">Infrastructures.cs</link></section>
+</section>

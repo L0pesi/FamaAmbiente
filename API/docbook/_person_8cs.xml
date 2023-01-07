@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__person_8cs" xml:lang="en-US">
+<title>D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs File Reference</title>
+<indexterm><primary>D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Person.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_b_o_d_l_l_1_1_person">BODLL.Person</link></para>
+
+<para>Purpose: A class <link linkend="_class_b_o_d_l_l_1_1_person">Person</link> é uma classe &quot;Pai&quot;, define a pessoa e seus atributos e metodos poderão ser usados por outras classes Created by: Lopesi Created on: 5/26/2021 11:52:46 PM </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_b_o_d_l_l">BODLL</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

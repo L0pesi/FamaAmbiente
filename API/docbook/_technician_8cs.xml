@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__technician_8cs" xml:lang="en-US">
+<title>D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Technician.cs File Reference</title>
+<indexterm><primary>D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Technician.cs</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_b_o_d_l_l_1_1_technician">BODLL.Technician</link></para>
+
+<para>Purpose: Esta classe define o técnico, seus atributos e metodos. Created by: Lopesi Created on: 5/26/2021 11:52:58 PM </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_b_o_d_l_l">BODLL</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

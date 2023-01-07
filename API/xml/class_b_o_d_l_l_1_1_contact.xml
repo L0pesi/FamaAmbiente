@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_b_o_d_l_l_1_1_contact" kind="class" language="C#" prot="public">
+    <compoundname>BODLL::Contact</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_b_o_d_l_l_1_1_contact_1a9d7883d3e0c65479ce0875e650279e0b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BODLL.Contact.phoneNumber</definition>
+        <argsstring></argsstring>
+        <name>phoneNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="35" column="24" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_d_l_l_1_1_contact_1aa2c11498c9dbf36f6dbb0216304a7955" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BODLL.Contact.email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="36" column="24" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_d_l_l_1_1_contact_1a87535bea807b586b546d3e1a74e59819" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BODLL.Contact.addressCity</definition>
+        <argsstring></argsstring>
+        <name>addressCity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="37" column="24" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_d_l_l_1_1_contact_1a0407f848de1d8278ffd4b81d45626596" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BODLL.Contact.addressDesc</definition>
+        <argsstring></argsstring>
+        <name>addressDesc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="38" column="24" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_b_o_d_l_l_1_1_contact_1aba9aeb5ff8b01595ff687e684890e6b5" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string BODLL.Contact.addressZipCode</definition>
+        <argsstring></argsstring>
+        <name>addressZipCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="39" column="24" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_b_o_d_l_l_1_1_contact_1a6606f1c581c8f96bc344d04b3c6c03c9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string??</type>
+        <definition>string?? BODLL.Contact.PhoneNumber</definition>
+        <argsstring></argsstring>
+        <name>PhoneNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="71" column="23" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="72" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_d_l_l_1_1_contact_1a5ae896b41814676da42ae634e31bb489" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? BODLL.Contact.Email</definition>
+        <argsstring></argsstring>
+        <name>Email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="94" column="23" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="95" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_d_l_l_1_1_contact_1ac9c358368d958ef5b7b73970ce5761c0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string BODLL.Contact.AddressCity</definition>
+        <argsstring></argsstring>
+        <name>AddressCity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="111" column="23" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="112" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_d_l_l_1_1_contact_1a4422aff485c479aed0cde3470c84848f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string?</type>
+        <definition>string? BODLL.Contact.AddressDesc</definition>
+        <argsstring></argsstring>
+        <name>AddressDesc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="123" column="23" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="124" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="property" id="class_b_o_d_l_l_1_1_contact_1a2d33535e7a151352956ece704b0bba6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string??</type>
+        <definition>string?? BODLL.Contact.AddressZipCode</definition>
+        <argsstring></argsstring>
+        <name>AddressZipCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="136" column="23" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="137" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_b_o_d_l_l_1_1_contact_1a6c09f705af867dbc6e012ad0b7090cae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BODLL.Contact.Contact</definition>
+        <argsstring>()</argsstring>
+        <name>Contact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="50" column="16" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_o_d_l_l_1_1_contact_1acd6b361d848715927cd3767f510e59da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BODLL.Contact.Contact</definition>
+        <argsstring>(string nr, string email, string addDesc, string addZipCode)</argsstring>
+        <name>Contact</name>
+        <param>
+          <type>string</type>
+          <declname>nr</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>addDesc</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>addZipCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="55" column="16" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="55" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_b_o_d_l_l_1_1_contact_1ad5d052126fe74080c0b8fda85c6f2092" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string BODLL.Contact.CapitalLetter</definition>
+        <argsstring>(string s)</argsstring>
+        <name>CapitalLetter</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Função da biblioteca System.Globalization converte a string para lowercase /summary&gt;</para>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="156" column="30" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="156" bodyend="164"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_b_o_d_l_l_1_1_contact_1acf65b2fecd1605c96b321f314c616128" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BODLL.Contact.Validate</definition>
+        <argsstring>(string n, string pattern)</argsstring>
+        <name>Validate</name>
+        <param>
+          <type>string</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>REGEX Função que valida a syntaxe de uma string usando um padrão que designamos (simulado online). biblioteca System.Text.RegularExpressions /summary&gt;</para>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="167" column="22" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="167" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Caracteriza e estrutura as informações de contacto (contact) Created by: Lopesi Created on: 5/26/2021 11:51:26 PM </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" line="29" column="11" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/Contact.cs" bodystart="30" bodyend="185"/>
+    <listofallmembers>
+      <member refid="class_b_o_d_l_l_1_1_contact_1a87535bea807b586b546d3e1a74e59819" prot="private" virt="non-virtual"><scope>BODLL::Contact</scope><name>addressCity</name></member>
+      <member refid="class_b_o_d_l_l_1_1_contact_1ac9c358368d958ef5b7b73970ce5761c0" prot="public" virt="non-virtual"><scope>BODLL::Contact</scope><name>AddressCity</name></member>
+      <member refid="class_b_o_d_l_l_1_1_contact_1a0407f848de1d8278ffd4b81d45626596" prot="private" virt="non-virtual"><scope>BODLL::Contact</scope><name>addressDesc</name></member>
+      <member refid="class_b_o_d_l_l_1_1_contact_1a4422aff485c479aed0cde3470c84848f" prot="public" virt="non-virtual"><scope>BODLL::Contact</scope><name>AddressDesc</name></member>
+      <member refid="class_b_o_d_l_l_1_1_contact_1aba9aeb5ff8b01595ff687e684890e6b5" prot="private" virt="non-virtual"><scope>BODLL::Contact</scope><name>addressZipCode</name></member>
+      <member refid="class_b_o_d_l_l_1_1_contact_1a2d33535e7a151352956ece704b0bba6e" prot="public" virt="non-virtual"><scope>BODLL::Contact</scope><name>AddressZipCode</name></member>
+      <member refid="class_b_o_d_l_l_1_1_contact_1ad5d052126fe74080c0b8fda85c6f2092" prot="public" virt="non-virtual"><scope>BODLL::Contact</scope><name>CapitalLetter</name></member>
+      <member refid="class_b_o_d_l_l_1_1_contact_1a6c09f705af867dbc6e012ad0b7090cae" prot="public" virt="non-virtual"><scope>BODLL::Contact</scope><name>Contact</name></member>
+      <member refid="class_b_o_d_l_l_1_1_contact_1acd6b361d848715927cd3767f510e59da" prot="public" virt="non-virtual"><scope>BODLL::Contact</scope><name>Contact</name></member>
+      <member refid="class_b_o_d_l_l_1_1_contact_1aa2c11498c9dbf36f6dbb0216304a7955" prot="private" virt="non-virtual"><scope>BODLL::Contact</scope><name>email</name></member>
+      <member refid="class_b_o_d_l_l_1_1_contact_1a5ae896b41814676da42ae634e31bb489" prot="public" virt="non-virtual"><scope>BODLL::Contact</scope><name>Email</name></member>
+      <member refid="class_b_o_d_l_l_1_1_contact_1a9d7883d3e0c65479ce0875e650279e0b" prot="private" virt="non-virtual"><scope>BODLL::Contact</scope><name>phoneNumber</name></member>
+      <member refid="class_b_o_d_l_l_1_1_contact_1a6606f1c581c8f96bc344d04b3c6c03c9" prot="public" virt="non-virtual"><scope>BODLL::Contact</scope><name>PhoneNumber</name></member>
+      <member refid="class_b_o_d_l_l_1_1_contact_1acf65b2fecd1605c96b321f314c616128" prot="private" virt="non-virtual"><scope>BODLL::Contact</scope><name>Validate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

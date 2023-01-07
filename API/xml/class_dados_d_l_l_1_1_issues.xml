@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_dados_d_l_l_1_1_issues" kind="class" language="C#" prot="public">
+    <compoundname>DadosDLL::Issues</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_dados_d_l_l_1_1_issues_1a8ecbef2de3137bf7739f827fca416489" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_dados_d_l_l_1_1_issues_1aad6d1afd6dde2d7dabb5d8a6cfd6ab80" kindref="member">List</ref>&lt; <ref refid="class_b_o_d_l_l_1_1_issue" kindref="compound">Issue</ref> &gt;</type>
+        <definition>List&lt;Issue&gt; DadosDLL.Issues.listOfIssues</definition>
+        <argsstring></argsstring>
+        <name>listOfIssues</name>
+        <initializer>= new <ref refid="class_dados_d_l_l_1_1_issues_1aad6d1afd6dde2d7dabb5d8a6cfd6ab80" kindref="member">List</ref>&lt;<ref refid="class_b_o_d_l_l_1_1_issue" kindref="compound">Issue</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Issues.cs" line="35" column="29" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Issues.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dados_d_l_l_1_1_issues_1a91c03d198b933fab4e6cd18abaa1a4fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DadosDLL.Issues.Issues</definition>
+        <argsstring>()</argsstring>
+        <name>Issues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Issues.cs" line="45" column="16" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Issues.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dados_d_l_l_1_1_issues_1a26ea1ea85103a91200eccbe067000827" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DadosDLL.Issues.LoadOnBoot</definition>
+        <argsstring>()</argsstring>
+        <name>LoadOnBoot</name>
+        <briefdescription>
+<para>Função para carregar exemplos pré-definidos </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true se for bem sucedido.False se estiver vazia</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Issues.cs" line="66" column="28" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Issues.cs" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_d_l_l_1_1_issues_1aad6d1afd6dde2d7dabb5d8a6cfd6ab80" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DadosDLL.Issues.List</definition>
+        <argsstring>(out int id)</argsstring>
+        <name>List</name>
+        <param>
+          <type>out int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função para imprimir no ecrã todas as ocorrências </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>o parametro id em ocorrencias</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true se for bem sucedido. false se a lista estiver vazia</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Issues.cs" line="80" column="28" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Issues.cs" bodystart="80" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_d_l_l_1_1_issues_1a1876dfdb24a8bd6d14f1f36b6ba0088e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool DadosDLL.Issues.Get</definition>
+        <argsstring>(int id, out Issue issue)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>out <ref refid="class_b_o_d_l_l_1_1_issue" kindref="compound">Issue</ref></type>
+          <declname>issue</declname>
+        </param>
+        <briefdescription>
+<para>Função que recolhe uma determinada ocorrência através do id </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>o id que a função recebe</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>issue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>o objeto ocorrencia que é devolvido</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true se encontrar, false senão. Leva a ocorrência em out</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Issues.cs" line="102" column="28" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Issues.cs" bodystart="102" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Esta classe gere o conjunto das ocorrências e as suas funções Created by: Lopesi Created on: 5/26/2021 11:48:06 PM </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Issues.cs" line="29" column="11" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL/Issues.cs" bodystart="30" bodyend="121"/>
+    <listofallmembers>
+      <member refid="class_dados_d_l_l_1_1_issues_1a1876dfdb24a8bd6d14f1f36b6ba0088e" prot="public" virt="non-virtual"><scope>DadosDLL::Issues</scope><name>Get</name></member>
+      <member refid="class_dados_d_l_l_1_1_issues_1a91c03d198b933fab4e6cd18abaa1a4fe" prot="public" virt="non-virtual"><scope>DadosDLL::Issues</scope><name>Issues</name></member>
+      <member refid="class_dados_d_l_l_1_1_issues_1aad6d1afd6dde2d7dabb5d8a6cfd6ab80" prot="public" virt="non-virtual"><scope>DadosDLL::Issues</scope><name>List</name></member>
+      <member refid="class_dados_d_l_l_1_1_issues_1a8ecbef2de3137bf7739f827fca416489" prot="private" virt="non-virtual"><scope>DadosDLL::Issues</scope><name>listOfIssues</name></member>
+      <member refid="class_dados_d_l_l_1_1_issues_1a26ea1ea85103a91200eccbe067000827" prot="public" virt="non-virtual"><scope>DadosDLL::Issues</scope><name>LoadOnBoot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_d660d2934011ea375cd3aba308083b6f" xml:lang="en-US">
+<title>D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL Directory Reference</title>
+<indexterm><primary>D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/DadosDLL Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_05c0f0ca22a56e886d0605e0975f2eee">obj</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_ee50e134a2342cfd9019a0bc03b6ca61">Properties</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__clients_8cs">Clients.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__infrastructures_8cs">Infrastructures.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__issues_8cs">Issues.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__technicians_8cs">Technicians.cs</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__tickets_8cs">Tickets.cs</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

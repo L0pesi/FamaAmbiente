@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_b_o_d_l_l_1_1_contact" xml:lang="en-US">
+<title>BODLL.Contact Class Reference</title>
+<indexterm><primary>BODLL.Contact</primary></indexterm>
+<para>
+
+<para>Purpose: Caracteriza e estrutura as informações de contacto (contact) Created by: Lopesi Created on: 5/26/2021 11:51:26 PM </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_b_o_d_l_l_1_1_contact_1a6c09f705af867dbc6e012ad0b7090cae">Contact</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_b_o_d_l_l_1_1_contact_1acd6b361d848715927cd3767f510e59da">Contact</link> (string nr, string email, string addDesc, string addZipCode)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static string <link linkend="_class_b_o_d_l_l_1_1_contact_1ad5d052126fe74080c0b8fda85c6f2092">CapitalLetter</link> (string s)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>string?? <link linkend="_class_b_o_d_l_l_1_1_contact_1a6606f1c581c8f96bc344d04b3c6c03c9">PhoneNumber</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string? <link linkend="_class_b_o_d_l_l_1_1_contact_1a5ae896b41814676da42ae634e31bb489">Email</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string <link linkend="_class_b_o_d_l_l_1_1_contact_1ac9c358368d958ef5b7b73970ce5761c0">AddressCity</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string? <link linkend="_class_b_o_d_l_l_1_1_contact_1a4422aff485c479aed0cde3470c84848f">AddressDesc</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>string?? <link linkend="_class_b_o_d_l_l_1_1_contact_1a2d33535e7a151352956ece704b0bba6e">AddressZipCode</link><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Purpose: Caracteriza e estrutura as informações de contacto (contact) Created by: Lopesi Created on: 5/26/2021 11:51:26 PM </para>
+
+
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_b_o_d_l_l_1_1_contact_1a6c09f705af867dbc6e012ad0b7090cae"/>    <section>
+    <title>Contact()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Contact</primary><secondary>BODLL.Contact</secondary></indexterm>
+<indexterm><primary>BODLL.Contact</primary><secondary>Contact</secondary></indexterm>
+<para><computeroutput>BODLL.Contact.Contact ( )</computeroutput></para>    </section><anchor xml:id="_class_b_o_d_l_l_1_1_contact_1acd6b361d848715927cd3767f510e59da"/>    <section>
+    <title>Contact()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Contact</primary><secondary>BODLL.Contact</secondary></indexterm>
+<indexterm><primary>BODLL.Contact</primary><secondary>Contact</secondary></indexterm>
+<para><computeroutput>BODLL.Contact.Contact (string nr, string email, string addDesc, string addZipCode)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_b_o_d_l_l_1_1_contact_1ad5d052126fe74080c0b8fda85c6f2092"/>    <section>
+    <title>CapitalLetter()</title>
+<indexterm><primary>CapitalLetter</primary><secondary>BODLL.Contact</secondary></indexterm>
+<indexterm><primary>BODLL.Contact</primary><secondary>CapitalLetter</secondary></indexterm>
+<para><computeroutput>static string BODLL.Contact.CapitalLetter (string s)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Função da biblioteca System.Globalization converte a string para lowercase /summary&gt;</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_b_o_d_l_l_1_1_contact_1ac9c358368d958ef5b7b73970ce5761c0"/>    <section>
+    <title>AddressCity</title>
+<indexterm><primary>AddressCity</primary><secondary>BODLL.Contact</secondary></indexterm>
+<indexterm><primary>BODLL.Contact</primary><secondary>AddressCity</secondary></indexterm>
+<para><computeroutput>string BODLL.Contact.AddressCity<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para>    </section><anchor xml:id="_class_b_o_d_l_l_1_1_contact_1a4422aff485c479aed0cde3470c84848f"/>    <section>
+    <title>AddressDesc</title>
+<indexterm><primary>AddressDesc</primary><secondary>BODLL.Contact</secondary></indexterm>
+<indexterm><primary>BODLL.Contact</primary><secondary>AddressDesc</secondary></indexterm>
+<para><computeroutput>string? BODLL.Contact.AddressDesc<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para>    </section><anchor xml:id="_class_b_o_d_l_l_1_1_contact_1a2d33535e7a151352956ece704b0bba6e"/>    <section>
+    <title>AddressZipCode</title>
+<indexterm><primary>AddressZipCode</primary><secondary>BODLL.Contact</secondary></indexterm>
+<indexterm><primary>BODLL.Contact</primary><secondary>AddressZipCode</secondary></indexterm>
+<para><computeroutput>string?? BODLL.Contact.AddressZipCode<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para>    </section><anchor xml:id="_class_b_o_d_l_l_1_1_contact_1a5ae896b41814676da42ae634e31bb489"/>    <section>
+    <title>Email</title>
+<indexterm><primary>Email</primary><secondary>BODLL.Contact</secondary></indexterm>
+<indexterm><primary>BODLL.Contact</primary><secondary>Email</secondary></indexterm>
+<para><computeroutput>string? BODLL.Contact.Email<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para>    </section><anchor xml:id="_class_b_o_d_l_l_1_1_contact_1a6606f1c581c8f96bc344d04b3c6c03c9"/>    <section>
+    <title>PhoneNumber</title>
+<indexterm><primary>PhoneNumber</primary><secondary>BODLL.Contact</secondary></indexterm>
+<indexterm><primary>BODLL.Contact</primary><secondary>PhoneNumber</secondary></indexterm>
+<para><computeroutput>string?? BODLL.Contact.PhoneNumber<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BODLL/<link linkend="__contact_8cs">Contact.cs</link></section>
+</section>

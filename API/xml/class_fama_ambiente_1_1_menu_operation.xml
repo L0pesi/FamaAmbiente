@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_fama_ambiente_1_1_menu_operation" kind="class" language="C#" prot="public">
+    <compoundname>FamaAmbiente::MenuOperation</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_fama_ambiente_1_1_menu_operation_1a71f6e33c3841b70f0b5ad413638d86cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FamaAmbiente.MenuOperation.MenuOperation</definition>
+        <argsstring>()</argsstring>
+        <name>MenuOperation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/FamaAmbiente/MenuOperation.cs" line="41" column="16" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/FamaAmbiente/MenuOperation.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_fama_ambiente_1_1_menu_operation_1a8de53cdb484c20ecfe88f48d783cdee7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FamaAmbiente.MenuOperation.OperationListaTickets</definition>
+        <argsstring>(out int ticketTotal, out int solvedTotal)</argsstring>
+        <name>OperationListaTickets</name>
+        <param>
+          <type>out int</type>
+          <declname>ticketTotal</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>solvedTotal</declname>
+        </param>
+        <briefdescription>
+<para>Este metodo requisita a informação necessária sobre os tickets para imprimir no ecrâ </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ticketNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número de tickets guardados</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>solvedTotal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>total de resolvidos</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true se tiver dados, false se não tiver</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/FamaAmbiente/MenuOperation.cs" line="66" column="28" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/FamaAmbiente/MenuOperation.cs" bodystart="66" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Purpose: Esta class de operação do menu é para testar a alternativa do frontend Created by: Lopesi Created on: 5/27/2021 1:11:23 PM </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/FamaAmbiente/MenuOperation.cs" line="26" column="11" bodyfile="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/FamaAmbiente/MenuOperation.cs" bodystart="27" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_fama_ambiente_1_1_menu_operation_1a71f6e33c3841b70f0b5ad413638d86cc" prot="public" virt="non-virtual"><scope>FamaAmbiente::MenuOperation</scope><name>MenuOperation</name></member>
+      <member refid="class_fama_ambiente_1_1_menu_operation_1a8de53cdb484c20ecfe88f48d783cdee7" prot="public" virt="non-virtual"><scope>FamaAmbiente::MenuOperation</scope><name>OperationListaTickets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

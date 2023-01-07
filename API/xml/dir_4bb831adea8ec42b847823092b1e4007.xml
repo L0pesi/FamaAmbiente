@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_4bb831adea8ec42b847823092b1e4007" kind="dir">
+    <compoundname>D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BRDLL</compoundname>
+    <innerdir refid="dir_cecd4f3e37efd7a15b18b2daa5f584c3">D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BRDLL/obj</innerdir>
+    <innerdir refid="dir_223953dbc6c4cd9ae47f5cd743c6af84">D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BRDLL/Properties</innerdir>
+    <innerfile refid="_ticket_rules_8cs">TicketRules.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/IPCA/1A 2S - Linguagens da Programação 2/PROJECTOS/FamaAmbiente/FamaAmbiente v1.3/FamaAmbiente/BRDLL/"/>
+  </compounddef>
+</doxygen>
